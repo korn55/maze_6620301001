@@ -140,9 +140,15 @@ while r <= 2 :
         r += 1
 r = 1
 
-while u <= 2 :
+while u <= 1:
     if m.move_up():
         m.print()
-        u += 1 
+        u += 1
 u = 1
+
+while r <= 1 :
+    if m.move_right():
+        m.print()
+        r +=1       
+        r = 1
 
