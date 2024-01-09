@@ -139,3 +139,10 @@ while r <= 2 :
         m.print()
         r += 1
 r = 1
+
+while u <= 2 :
+    if m.move_up():
+        m.print()
+        u += 1 
+u = 1
+
