@@ -127,3 +127,9 @@ while r <= 2 :
         m.print()
         r += 1
 r = 1
+
+while d <= 3 :
+    if m.move_down():
+        m.print()
+        d += 1
+d = 1
