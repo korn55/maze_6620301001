@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
     m = maze()
     m.print()
-    
+    visited = set()
     # number of movements 
 
     u,r,d = 1,1,1
@@ -142,11 +142,14 @@ while r <= 2 :
         r += 1
 r = 1
 
-while u <= 3:
+while u <= 2:
     if m.move_up():
         m.print()
         u += 1
 u = 1
 
-
-
+while u <= 1:
+    if m.move_right():
+        m.print()
+        u += 1
+u = 1
