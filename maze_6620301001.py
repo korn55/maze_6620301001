@@ -133,3 +133,9 @@ while d <= 3 :
         m.print()
         d += 1
 d = 1
+
+while r <= 2 :
+    if m.move_right():
+        m.print()
+        r += 1
+r = 1
