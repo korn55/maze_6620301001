@@ -109,15 +109,17 @@ class pos:
     def __init__(self, y, x) -> None:
         self.y = y
         self.x = x
-
+  
 if __name__ == '__main__':
 
     m = maze()
     m.print()
-
+    
     # number of movements 
+
     u,r,d = 1,1,1
-while u <= 5 :
+
+while u <= 4 :
     if m.move_up():
         m.print()
         u += 1
@@ -140,15 +142,11 @@ while r <= 2 :
         r += 1
 r = 1
 
-while u <= 1:
+while u <= 3:
     if m.move_up():
         m.print()
         u += 1
 u = 1
 
-while r <= 1 :
-    if m.move_right():
-        m.print()
-        r +=1       
-        r = 1
+
 
