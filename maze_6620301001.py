@@ -115,7 +115,7 @@ if __name__ == '__main__':
     m = maze()
     m.print()
     
-
+    
     # number of movements 
 
     u,r,d = 1,1,1
